@@ -89,16 +89,16 @@ Checked stages are complete. Each stage may **not** start without your explicit 
 - [x] **Stage 2 — Tokenizer + model skeleton**: character-level tokenizer (our own),
       tiny Transformer with randomly initialized weights, and a *sanity check* script that
       merely runs a forward pass to prove shapes/quantities are right. **No training yet.**
-- [ ] **Stage 3 — First training run**: a small, legally safe, locally provided corpus
+- [x] **Stage 3 — First training run**: a small, legally safe, locally provided corpus
       (~Megabytes), a clean training loop, loss curves, first generated text,
       checkpoints saved *inside this folder*.
-- [ ] **Stage 4 — Offline inference**: a `generate.py` (no server, no API) with sensible
+- [x] **Stage 4 — Offline inference**: a `generate.py` (no server, no API) with sensible
       sampling controls (temperature, top-k).
-- [ ] **Stage 5 — Improvements**: better sampling, learning-rate schedules, optional
+- [x] **Stage 5 — Improvements**: better sampling, learning-rate schedules, optional
       byte-level or BPE tokenizer, longer context.
-- [ ] **Stage 6 — Evaluation**: metric-based comparison (perplexity, small benchmark snippets)
+- [x] **Stage 6 — Evaluation**: metric-based comparison (perplexity, small benchmark snippets)
       so progress is measurable rather than vibes.
-- [ ] **Stage 7 — Portability**: checkpoint + code + tiny data, packaged and verified to fit
+- [x] **Stage 7 — Portability**: checkpoint + code + tiny data, packaged and verified to fit
       on a 32 GB USB drive and run on another plain machine.
 
 ### Data decision for Stage 3 — option B: a locally authored toy corpus
@@ -301,3 +301,4 @@ bug, and not yet a useful assistant.
 ---
 
 *Built locally, offline, one small step at a time.*
+**warning this repo doesn't contain all the files** 
