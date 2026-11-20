@@ -1,0 +1,198 @@
+{
+  "format": "my-LLM stage-5 dataset manifest v1",
+  "created": "2026-10-23",
+  "stage": "Stage 5 — data preparation only (no training)",
+  "description": "Original, locally authored educational prose for the character-level TinyLM. "
+                 "All documents were authored for this project. No external books, websites, "
+                 "or copyrighted material were copied. No personal data, credentials, or "
+                 "secrets are included.",
+  "sources": [
+    {
+      "id": "s01",
+      "file": "sources/01_bread.txt",
+      "title": "Bread, from flour to loaf",
+      "topic": "everyday process",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s02",
+      "file": "sources/02_library.txt",
+      "title": "The library visit",
+      "topic": "everyday narrative",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s03",
+      "file": "sources/03_light_bulb.txt",
+      "title": "How a light bulb works",
+      "topic": "computer fundamentals / physics",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s04",
+      "file": "sources/04_weather_dialogue.txt",
+      "title": "A conversation about the weather",
+      "topic": "dialogue",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s05",
+      "file": "sources/05_handwashing.txt",
+      "title": "What germs are and why handwashing matters",
+      "topic": "science / health",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s06",
+      "file": "sources/06_garden.txt",
+      "title": "The garden in spring",
+      "topic": "nature / short story",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s07",
+      "file": "sources/07_binary.txt",
+      "title": "Why computers use binary",
+      "topic": "computer fundamentals / programming",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s08",
+      "file": "sources/08_mitten.txt",
+      "title": "The lost mitten",
+      "topic": "short story",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s09",
+      "file": "sources/09_seeds.txt",
+      "title": "How seeds grow",
+      "topic": "science",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s10",
+      "file": "sources/10_market.txt",
+      "title": "A day at the market",
+      "topic": "everyday narrative",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s11",
+      "file": "sources/11_moon.txt",
+      "title": "What the moon does",
+      "topic": "science",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s12",
+      "file": "sources/12_pancake.txt",
+      "title": "A simple pancake recipe",
+      "topic": "everyday process",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s13",
+      "file": "sources/13_shadows.txt",
+      "title": "Why shadows change length",
+      "topic": "science",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s14",
+      "file": "sources/14_beekeeper.txt",
+      "title": "Interview with a beekeeper",
+      "topic": "dialogue / science",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s15",
+      "file": "sources/15_water_cycle.txt",
+      "title": "The water cycle",
+      "topic": "science",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s16",
+      "file": "sources/16_shoelaces.txt",
+      "title": "How to tie shoelaces",
+      "topic": "everyday process",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s17",
+      "file": "sources/17_ant_seed.txt",
+      "title": "The ant and the seed",
+      "topic": "short story",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s18",
+      "file": "sources/18_clouds.txt",
+      "title": "A note about clouds",
+      "topic": "science",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s19",
+      "file": "sources/19_bicycle.txt",
+      "title": "The bicycle repair",
+      "topic": "everyday narrative",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    },
+    {
+      "id": "s20",
+      "file": "sources/20_sleep.txt",
+      "title": "Why we sleep",
+      "topic": "science / health",
+      "origin": "original writing for this project",
+      "rights": "created by the project author for this project; all rights reserved to the project",
+      "license_note": "not claimed public domain; original project material"
+    }
+  ],
+  "total_documents": 20,
+  "notes": [
+    "Document boundaries are preserved in separate source files until the train/validation split.",
+    "No paragraphs were artificially duplicated. No filler was added to inflate size.",
+    "No external datasets were downloaded; no external material was copied.",
+    "If external material is ever added, its source and license must be documented here first."
+  ]
+}

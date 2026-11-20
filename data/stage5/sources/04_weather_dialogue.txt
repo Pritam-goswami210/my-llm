@@ -1,0 +1,11 @@
+A conversation about the weather
+
+-- Is it going to rain today?
+-- The sky looks grey, so I think so. Did you bring an umbrella?
+-- No, I left it at home. I thought the forecast said sunny.
+-- Forecasts change. We should hurry before the first drops fall.
+-- Look, there goes the first one. It landed on my sleeve.
+-- Come on, the bus stop has a roof. We can wait there.
+-- Good idea. I hope the rain does not last all afternoon.
+-- Even if it does, the garden will be happy. The plants have been thirsty.
+-- That is true. Everything looks greener after a good rain.

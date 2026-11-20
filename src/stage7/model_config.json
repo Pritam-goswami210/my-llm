@@ -1,0 +1,17 @@
+{
+  "format": "my-LLM stage-7 model config v1",
+  "vocab_size": 1024,
+  "block_size": 128,
+  "n_layer": 4,
+  "n_head": 4,
+  "n_embd": 128,
+  "dropout": 0.1,
+  "notes": {
+    "vocab_size": "BPE vocabulary size (256 bytes + special tokens + merges). Configurable via --vocab-size.",
+    "block_size": "Context length in tokens.",
+    "n_layer": "Number of Transformer blocks.",
+    "n_head": "Number of attention heads (n_embd must be divisible by n_head).",
+    "n_embd": "Embedding channels per token.",
+    "dropout": "Dropout probability."
+  }
+}

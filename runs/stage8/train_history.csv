@@ -1,0 +1,13 @@
+step,corpus,split,loss,elapsed_s,tokens_seen
+1,corpus-a-original,val,4.3949,2.6,0
+1,corpus-b-shakespeare,val,4.4016,2.6,0
+1,mixed,train,4.4029,2.6,0
+2,corpus-a-original,val,4.0568,3.0,256
+2,corpus-b-shakespeare,val,4.1047,3.0,256
+2,mixed,train,4.0873,3.0,256
+4,corpus-a-original,val,3.7449,3.4,768
+4,corpus-b-shakespeare,val,3.8200,3.4,768
+4,mixed,train,3.7739,3.4,768
+5,corpus-a-original,val,3.6707,3.7,1024
+5,corpus-b-shakespeare,val,3.7167,3.7,1024
+5,mixed,train,3.7054,3.7,1024

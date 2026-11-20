@@ -1,0 +1,10 @@
+Why shadows change length
+
+A shadow is made when an object blocks light. If the light comes from the sun,
+the shadow's direction and length change through the day. In the early morning
+the sun is low in the sky, so shadows stretch out long behind objects. Around
+noon the sun is higher, and shadows grow short. In the afternoon the sun moves
+lower again, and shadows lengthen once more. The shape of the object affects
+the shadow too: a round ball makes a round shadow, while a tall pole makes a
+long thin one. On a cloudy day the light is scattered, so shadows become faint
+or disappear altogether. Shadows remind us that light travels in straight lines.

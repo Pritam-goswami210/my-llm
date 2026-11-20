@@ -1,0 +1,11 @@
+How a light bulb works
+
+A light bulb turns electricity into light. Inside the glass bulb is a thin
+wire called a filament. When you flip the switch, electric current flows
+through the filament. The filament resists the flow of electricity, and that
+resistance makes it hot -- so hot that it glows. In an old-fashioned bulb, the
+glowing wire gives off both light and heat. Newer bulbs, such as LEDs, work
+differently: they send electricity through a special material that releases
+light directly without getting nearly as hot. That is why LED bulbs use less
+electricity and last much longer than the older kind. If a bulb ever breaks,
+it should be swept up carefully and disposed of according to local rules.

@@ -1,0 +1,75 @@
+{
+  "format": "my-LLM corpus manifest v1",
+  "stage": "Stage 7 — corpus engineering",
+  "created": "2026-11-14T10:19:28.778671",
+  "description": "Cleaned Hamlet corpus (Folger Shakespeare Library edition) for my-LLM language-model training. Kept separate from the Stage 5 original-language corpus.",
+  "source": {
+    "file": "data/raw/Hamlet.pdf",
+    "edition": "Folger Shakespeare Library",
+    "pages": 144,
+    "play_begins_on_page": 8,
+    "acts": 5,
+    "scenes": 20
+  },
+  "corpora": [
+    {
+      "id": "corpus-a-original",
+      "name": "Original language material",
+      "file": "data/tiny_corpus.txt",
+      "weight": 0.25,
+      "notes": "Locally authored educational prose (Stage 5)."
+    },
+    {
+      "id": "corpus-b-shakespeare",
+      "name": "Shakespearean literary material",
+      "file": "data/processed/hamlet_clean.txt",
+      "weight": 0.25,
+      "notes": "Hamlet, Folger edition. Extracted and cleaned from PDF."
+    },
+    {
+      "id": "corpus-c-modern",
+      "name": "Modern English material",
+      "file": null,
+      "weight": 0.2,
+      "notes": "To be added in a later stage. Placeholder."
+    },
+    {
+      "id": "corpus-d-conversation",
+      "name": "Original conversational examples",
+      "file": null,
+      "weight": 0.15,
+      "notes": "Conversational fine-tuning format (see format note)."
+    },
+    {
+      "id": "corpus-e-teacher",
+      "name": "Optional teacher-generated examples",
+      "file": null,
+      "weight": 0.15,
+      "notes": "Optional distillation data. Not included yet."
+    }
+  ],
+  "weight_note": "Weights sum to 1.0. Hamlet is capped at 25% so it cannot dominate the language distribution merely because its file is larger than the original documents.",
+  "conversation_format": {
+    "example": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Explain gravity."
+        },
+        {
+          "role": "assistant",
+          "content": "Gravity is the force that attracts objects toward each other."
+        }
+      ]
+    },
+    "notes": "Kept separate from literary pretraining data."
+  },
+  "stats": {
+    "clean_characters": 187110,
+    "scenes": 20,
+    "speakers": 32,
+    "dialogue_entries": 1034,
+    "stage_directions": 124,
+    "unknown_token_chars": 0
+  }
+}

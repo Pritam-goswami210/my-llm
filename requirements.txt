@@ -1,0 +1,24 @@
+# ============================================================
+# my-LLM — dependencies for the INITIAL stage
+# (Stage 2: character tokenizer, tiny Transformer, sanity checks)
+# ============================================================
+#
+# Status on this machine (audited 2026-10-22):
+#   torch 2.14.1+cpu  -> ALREADY INSTALLED
+#   numpy  1.26.4     -> ALREADY INSTALLED
+#   tqdm   4.70.1     -> ALREADY INSTALLED
+#
+# We deliberately did NOT pip-install anything during Step 1.
+# If a fresh machine ever needs these, the command would be:
+#     pip install -r requirements.txt
+# (CPU-only PyTorch is correct for our hardware; see hardware_report.md.
+#  A CUDA/NVIDIA GPU build would need a different install command —
+#  documented in hardware_report.md for when hardware changes.)
+#
+# Deliberately NOT included (no need yet — will be added per-stage with approval):
+#   tensorboard / matplotlib (Stage 3 logging), pytest (later), any dataset
+#   downloaders or API clients (we never use hosted APIs).
+
+torch>=2.4
+numpy>=1.24
+tqdm>=4.60

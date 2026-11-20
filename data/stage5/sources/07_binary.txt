@@ -1,0 +1,11 @@
+Why computers use binary
+
+Computers do not count with the ten digits people use every day. Inside a
+computer, information is stored as millions of tiny switches that can be either
+on or off. Each switch holds one binary digit, or bit, which is either a zero
+or a one. Groups of eight bits form a byte, and bytes combine to represent
+letters, numbers, pictures, and sound. When you press a key on the keyboard,
+the computer turns that letter into a pattern of bits. When you save a file,
+the computer writes those patterns to storage. Binary works well because the
+on-off states are easy to build and hard to confuse. A switch is either on or
+it is off; there is no in-between that could cause mistakes.

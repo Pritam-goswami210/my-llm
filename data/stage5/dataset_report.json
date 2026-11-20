@@ -1,0 +1,342 @@
+{
+  "format": "my-LLM stage-5 dataset report v1",
+  "created": "2026-10-23",
+  "seed": 1337,
+  "train_fraction_target": 0.9,
+  "total_source_documents": 20,
+  "source_documents": [
+    {
+      "file": "01_bread.txt",
+      "sha256": "82e5790c3466bdbb3097ef71f8658f0ace2cd3dcdfb794cfd9bde73e5e00a579",
+      "raw_characters": 731,
+      "cleaned_characters": 730,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "02_library.txt",
+      "sha256": "244631cdaac710135cb8e6c64ee5262485c625907dc7c35d9ea6df1146c53780",
+      "raw_characters": 699,
+      "cleaned_characters": 698,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "03_light_bulb.txt",
+      "sha256": "716d678445126e66b623ff1da2cdc1dbe70bcdc924d227c037a531889dccea64",
+      "raw_characters": 708,
+      "cleaned_characters": 707,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "04_weather_dialogue.txt",
+      "sha256": "d4f9b300054730fc901f3958cf00c17210e2124394e2b50835cacecf29a6ccd0",
+      "raw_characters": 567,
+      "cleaned_characters": 566,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "05_handwashing.txt",
+      "sha256": "d63048e6a8c266d73d42c1d5a752c9ecf41b1ac55cdbf75c3712c42705d58345",
+      "raw_characters": 713,
+      "cleaned_characters": 712,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "06_garden.txt",
+      "sha256": "46ceb9dd866495ec67669df55b223931caee1630500cb48a0e224dc495c92ffb",
+      "raw_characters": 652,
+      "cleaned_characters": 651,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "07_binary.txt",
+      "sha256": "c4336c9c31b741c2393b157df1b31664e99ddffa97863d1a716f0405f0146f60",
+      "raw_characters": 703,
+      "cleaned_characters": 702,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "08_mitten.txt",
+      "sha256": "f844303d1e6b43dc56adf51e3795dd73a0ec6b05ef40d9bdc4250154cd50b562",
+      "raw_characters": 622,
+      "cleaned_characters": 621,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "09_seeds.txt",
+      "sha256": "ab70ef9a87d4842f9ce1d9a8377a892ff56ba798564a9743150b26810f47f156",
+      "raw_characters": 671,
+      "cleaned_characters": 670,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "10_market.txt",
+      "sha256": "cd70b32c88c4ad54ec9528cd80d5068a203b81f2a84488bf3391b8a67db09c6b",
+      "raw_characters": 698,
+      "cleaned_characters": 697,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "11_moon.txt",
+      "sha256": "a26e678692625eebde2a60162f11c0a405a80336b7cb548e25f37f8683d7f019",
+      "raw_characters": 607,
+      "cleaned_characters": 606,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "12_pancake.txt",
+      "sha256": "c35b13b71da683127edde66d8aafb2e4f006614220b292e4d3a43606ff9e45a6",
+      "raw_characters": 669,
+      "cleaned_characters": 668,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "13_shadows.txt",
+      "sha256": "7d250c805d536798577b248e1715d0f758ee84553475b6584c172ec7c9f4a214",
+      "raw_characters": 656,
+      "cleaned_characters": 655,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "14_beekeeper.txt",
+      "sha256": "77491d1aba2593c2da6714bdc0e5ef887e3ae8ae9902b9199fff92724de93a49",
+      "raw_characters": 835,
+      "cleaned_characters": 834,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "15_water_cycle.txt",
+      "sha256": "8be17b3ddd0d269517b74efb086bbdac5b70e289220a4806d6f7b067a1314512",
+      "raw_characters": 627,
+      "cleaned_characters": 626,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "16_shoelaces.txt",
+      "sha256": "c2089859b6003a6f84b0a7e84c75cd35379636e97802403507b534054f3e9ab6",
+      "raw_characters": 562,
+      "cleaned_characters": 561,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "17_ant_seed.txt",
+      "sha256": "e3c4460e4b6b7a46de54880da069ba73dee2b1308a23fd8b4a17cfc818175884",
+      "raw_characters": 647,
+      "cleaned_characters": 646,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "18_clouds.txt",
+      "sha256": "1f15844e5f04b87a12387bb731379065132d787d382204c23f92daf99416c036",
+      "raw_characters": 559,
+      "cleaned_characters": 558,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "19_bicycle.txt",
+      "sha256": "8dd220b7f6e5d61e348b85afc3e21ab70b18dd4a07ec3e3fc22d361d34504a8a",
+      "raw_characters": 648,
+      "cleaned_characters": 647,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    },
+    {
+      "file": "20_sleep.txt",
+      "sha256": "6f79c11691c9c143b32cf40e32d4eb18cf4a1baa22fcc41bce58f4e3bebb0e60",
+      "raw_characters": 629,
+      "cleaned_characters": 628,
+      "cleaning_decisions": [
+        "read as UTF-8 text",
+        "stripped leading/trailing whitespace from document"
+      ]
+    }
+  ],
+  "train_documents": 18,
+  "validation_documents": 2,
+  "train_document_files": [
+    "01_bread.txt",
+    "03_light_bulb.txt",
+    "04_weather_dialogue.txt",
+    "05_handwashing.txt",
+    "06_garden.txt",
+    "07_binary.txt",
+    "08_mitten.txt",
+    "09_seeds.txt",
+    "10_market.txt",
+    "11_moon.txt",
+    "12_pancake.txt",
+    "13_shadows.txt",
+    "15_water_cycle.txt",
+    "16_shoelaces.txt",
+    "17_ant_seed.txt",
+    "18_clouds.txt",
+    "19_bicycle.txt",
+    "20_sleep.txt"
+  ],
+  "validation_document_files": [
+    "02_library.txt",
+    "14_beekeeper.txt"
+  ],
+  "train_characters": 11687,
+  "validation_characters": 1536,
+  "train_bytes": 11687,
+  "validation_bytes": 1536,
+  "train_characters_percent": 88.38387657868864,
+  "validation_characters_percent": 11.616123421311352,
+  "combined_report": {
+    "total_characters": 13223,
+    "unique_characters": 55,
+    "frequency": {
+      "\n": 237,
+      " ": 2251,
+      "'": 7,
+      ",": 143,
+      "-": 43,
+      ".": 174,
+      ":": 8,
+      ";": 5,
+      "?": 7,
+      "A": 28,
+      "B": 8,
+      "C": 8,
+      "D": 7,
+      "E": 12,
+      "F": 3,
+      "G": 4,
+      "H": 9,
+      "I": 25,
+      "J": 1,
+      "K": 1,
+      "L": 9,
+      "M": 10,
+      "N": 5,
+      "O": 3,
+      "P": 3,
+      "S": 17,
+      "T": 39,
+      "W": 29,
+      "Y": 2,
+      "a": 816,
+      "b": 183,
+      "c": 262,
+      "d": 463,
+      "e": 1299,
+      "f": 193,
+      "g": 227,
+      "h": 656,
+      "i": 576,
+      "j": 8,
+      "k": 112,
+      "l": 450,
+      "m": 206,
+      "n": 694,
+      "o": 769,
+      "p": 203,
+      "q": 7,
+      "r": 576,
+      "s": 706,
+      "t": 956,
+      "u": 276,
+      "v": 74,
+      "w": 222,
+      "x": 14,
+      "y": 170,
+      "z": 7
+    },
+    "non_ascii": {},
+    "control_chars": {}
+  },
+  "tokenizer_coverage": {
+    "tokenizer_vocab_size": 60,
+    "tokenizer_special_tokens": [
+      "<pad>",
+      "<unk>"
+    ],
+    "corpus_unique_characters": 55,
+    "characters_covered_by_tokenizer": 50,
+    "characters_missing_from_tokenizer": 5,
+    "missing_characters": [
+      "-",
+      "?",
+      "J",
+      "K",
+      "Y"
+    ],
+    "missing_examples": [
+      "-",
+      "?",
+      "J",
+      "K",
+      "Y"
+    ]
+  },
+  "empty_documents": [],
+  "exact_duplicate_groups": [],
+  "train_validation_overlap_documents": [],
+  "train_validation_overlap_count": 0,
+  "cleaning_summary": {
+    "line_endings_normalized": 0,
+    "trailing_whitespace_stripped": 20,
+    "blank_lines_collapsed": 0
+  },
+  "limitations": [
+    "Document-level split does not guarantee absence of semantic or passage-level leakage.",
+    "This corpus (~tens of KB) is still small for a character-level model; broad language knowledge needs much more data.",
+    "Non-ASCII characters (em dashes, curly quotes) are preserved and reported, not deleted."
+  ]
+}
